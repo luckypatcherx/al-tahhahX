@@ -43,9 +43,8 @@
     <div class="preloader"></div>
     <!-- preloader -->
 
+   
     <!-- main header -->
-    <header class="main-header style-two">
-       <!-- main header -->
     <header class="main-header">
         <div class="outer-container">
             <div class="header-upper clearfix">
@@ -71,16 +70,9 @@
                             <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                 <ul class="navigation clearfix">
                                     <li><a href="index.html">Home</a></li>
-                                    <li><a href="#aboutus">About US</a></li>
-                                    <li class="dropdown"><a href="#">Products</a>
-                                        <ul>
-                                            <li><a href="shop.html">Our Shop</a></li>
-                                            <li><a href="shop-details.html">Shop Details</a></li>
-                                        </ul>
-                                    </li>
-                                   
-                                                            
-                                    <li><a href="contact.html">Contact US</a></li>
+                                    <li><a href="index.html#aboutus">About US</a></li>
+                                    <li><a href="products.html">Prouducts</a></li>
+                                    <li><a href="#contactus">Contact US</a></li>
                                 </ul>
                             </div>
                         </nav>
@@ -88,14 +80,16 @@
                     <div class="menu-right-content pull-left clearfix">
                         <div class="search-box-outer">
                             <div class="dropdown">
-                                
+
                                 <ul class="dropdown-menu pull-right search-panel" aria-labelledby="dropdownMenu3">
                                     <li class="panel-outer">
                                         <div class="form-container">
                                             <form method="post" action="http://azim.commonsupport.com/Uaques/blog.html">
                                                 <div class="form-group">
-                                                    <input type="search" name="field-name" value="" placeholder="Search...." required="">
-                                                    <button type="submit" class="search-btn"><i class="fas fa-search"></i></button>
+                                                    <input type="search" name="field-name" value=""
+                                                        placeholder="Search...." required="">
+                                                    <button type="submit" class="search-btn"><i
+                                                            class="fas fa-search"></i></button>
                                                 </div>
                                             </form>
                                         </div>
@@ -103,7 +97,7 @@
                                 </ul>
                             </div>
                         </div>
-                   
+
                     </div>
                 </div>
             </div>
@@ -112,7 +106,7 @@
         <!--sticky Header-->
         <div class="sticky-header">
             <div class="auto-container clearfix">
-                <figure class="logo-box"><a href="index.html"><img src="images/small-logo.png" alt=""></a></figure>
+                <figure class="logo-box"><a href="index.html"><img src="images/small-logo.png" alt="small"></a></figure>
                 <div class="menu-area">
                     <nav class="main-menu clearfix">
                         <!--Keep This Empty / Menu will come through Javascript-->
@@ -226,57 +220,92 @@
        
     </section>
     <!-- shop-details end -->
-
-
+      <!-- contact-section -->
+      <div class="auto-container">
+        <div class="sec-title text-center">
+            <h1>Contact US</h1>
+         
+        </div>
+      </div>
+      <section class="contact-section sec-pad" id="contactus"  >
+        <div class="auto-container">
+            <div class="row clearfix">
+                <div class="col-lg-4 col-md-12 col-sm-12 info-column">
+                    <div class="info-box">
+                        <h2 class="title-text">Contact Information</h2>
+                        <ul class="info-list clearfix wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+                            <li><i class="fas fa-phone"></i><strong>Call Us</strong> <a href="tel:12078761059">
+                                    067-484-536</a></li>
+                            <li><i class="fas fa-map-marker-alt"></i>Warehouse # 17, New Industrial Area <br>- Ajman - United Arab Emirates
+                            </li>
+                            <li><i class="fas fa-envelope"></i><strong>E-mail</strong> <a
+                                    href="mailto:sales@example.com">altallah@gmail.com</a></li>
+                            <li><i class="fas fa-clock"></i>Monday-Sunday: 8am to 11pm<br /><br />All Days Open</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-12 col-sm-12 inner-column">
+                    <div class="inner-box">
+                        <h2 class="title-text">Send a Message</h2>
+                        <div class="form-inner">
+                            <form method="post" action="http://azim.commonsupport.com/Uaques/sendemail.php"
+                                id="contact-form" class="default-form">
+                                <div class="row clearfix">
+                                    <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                                        <label>Your Name</label>
+                                        <input type="text" name="username" required>
+                                    </div>
+                                    
+                                    
+                                    <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                                        <label>Phone</label>
+                                        <input type="text" name="phone" required=>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 form-group">
+                                        <label>Message</label>
+                                        <textarea name="message"></textarea>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12 form-group message-btn">
+                                        <button type="submit" name="submit-form">submit now</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact-section end -->
+   
    
 
     <!-- main-footer -->
     <footer class="main-footer">
-        <div class="footer-top">
-            <div class="border-shap">
-                <div class="border-3" style="background-image: url(images/icons/border-4.png);"></div>
-            </div>
-            <div class="auto-container">
-                <div class="inner-box clearfix">
-                    <div class="subscribe-form pull-left">
-                        <form action="#" method="post">
-                            <div class="form-group">
-                                <input type="email" name="email" placeholder="Email address to subscribe" required="">
-                                <button type="submit" class="theme-btn style-two">subscribe</button>
-                            </div>
-                        </form>
-                    </div>
-                    <!-- <div class="footer-social pull-right">
-                        <ul class="social-links clearfix"> 
-                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-                            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-                            <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-                        </ul>
-                    </div> -->
-                </div>
-            </div>
-        </div>
+        <!--  -->
         <div class="footer-upper">
             <div class="auto-container">
                 <div class="widget-section wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
                     <div class="row clearfix">
                         <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
                             <div class="logo-widget footer-widget">
-                                <figure class="footer-logo"><a href="index.html"><img src="images/footer-logo.png" alt=""></a></figure>
-                                <div class="text">Al Tallah Drinking Water was founded in 1989. With annual sales of 120 million gallons of water, we are currently one of Dubai and the Northern Emirates' leading water suppliers.</div>
+                                <figure class="footer-logo" style="margin-right:100px"><a href="index.html"><img src="images/small-logo.png"alt="footerlogo"></a></figure>
+                                <figure class="footer-logo"><a href="index.html"><img src="images/footer-logo.png"alt="footerlogo"></a></figure>
+                                <div class="text">Al Tallah Drinking Water was founded in 1989. With annual sales of 120
+                                    million gallons of water, we are currently one of Dubai and the Northern Emirates'
+                                    leading water suppliers.</div>
                             </div>
                         </div>
-                        <div  class="col-lg-3 col-md-6 col-sm-12 footer-column">
+                        
+                        <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
                             <div class="links-widget footer-widget">
-                                <h3  class="widget-title">About Us</h3>
+                                <h3 class="widget-title">About Us</h3>
                                 <div class="widget-content">
                                     <ul class="list clearfix">
-                                        <li><a href="#">Why Choose Us</a></li>
-                                        
+                                        <li><a href="#whyus">Why Choose Us</a></li>
+
                                         <li><a href="products.html">Our Products</a></li>
-                                      
+
                                     </ul>
                                 </div>
                             </div>
@@ -286,9 +315,10 @@
                                 <h3 class="widget-title">Business Hours</h3>
                                 <div class="widget-content">
                                     <ul class="list clearfix">
-                                        <li>Monday-Friday: 9am to 5pm</li>
-                                        <li>Saturday: 10am to 4pm</li>
-                                        <li>Sunday: Closed</li>
+                                    
+                                        <li>Monday-Sunday:&nbsp 8am to 11pm</li>
+                                       
+                                        <li>Open Everyday</li>
                                     </ul>
                                 </div>
                             </div>
@@ -298,9 +328,11 @@
                                 <h3 class="widget-title">Contact us</h3>
                                 <div class="widget-content">
                                     <ul class="list clearfix">
-                                        <li>3065 Upton Avenue, Guilford Maine 04443 USA</li>
-                                        <li>Call Us <a href="tel:12078761059">+1 207-876-1059</a></li>
-                                        <li>E-mail: <a href="mailto:info@example.com">info@example.com</a></li>
+                                       
+                                        <li> Warehouse # 17, New Industrial Area</li>
+                                        <li>- Ajman - United Arab Emirates</li>
+                                        <li>Call Us <a href="tel:971067484536">971-067-484-536</a></li>
+                                        <li>E-mail: <a href="mailto:altallah@gmail.com">altallah@gmail.com</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -311,11 +343,12 @@
         </div>
         <div class="footer-bottom">
             <div class="auto-container">
-                <div class="copyright">Copyrights &copy; 2019 <a href="#">valotheme</a>. All rights reserved.</div>
+                <div class="copyright">Copyright@; 2023 <a href="#">&All Right Reserved</a>|Branded By hOB</div>
             </div>
         </div>
     </footer>
     <!-- main-footer end -->
+
 
 
 
