@@ -5855,3 +5855,17 @@ div#mCSB_1_container{
  }
 
 
+.textshadow
+  {
+    text-shadow: -1px -1px 0 #000, 
+                1px -1px 0 #000, 
+                -1px 1px 0 #000, 
+                1px 1px 0 #000;
+ }
+
+ .orange-bg {
+  background-color: orange;
+  color: black;
+  padding: 20px;
+}
+
