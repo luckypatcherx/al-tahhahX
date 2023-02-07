@@ -6133,13 +6133,13 @@ div#mCSB_1_container{
     height:60px;
     bottom:100px;
     right:45px;
-    background-color:#00d9ff;
+    background-color:#1778bb;
     color:#FFF;
     border-radius:50px;
     text-align:center;
     font-size:30px;
-    box-shadow: 2px 2px 3px #999;
     z-index:100;
+    border:1px solid black;
 
   
   }
