@@ -6150,6 +6150,13 @@ div#mCSB_1_container{
 
 
   /*slider product css extra*/
+  @media screen and (max-width: 768px){
+    .lg {
+      display: none;
+    }
+  }
+
+  @media screen and (min-width: 992px) { 
   #slider {
     height: 50vh;
     min-height: 400px;
@@ -6200,7 +6207,7 @@ div#mCSB_1_container{
     background: rgba(255,255,255,0.5);
 }
 
-/*.blur {
+.blur {
     position: absolute;
     top: 0;
     left: 0;
@@ -6209,7 +6216,7 @@ div#mCSB_1_container{
     background: rgba(255,255,255,0.5);
     filter: blur(2px);
     z-index: -1;
-}*/
+}
 
 #prev {
     cursor: pointer;
@@ -6240,3 +6247,4 @@ div#mCSB_1_container{
 .animated {
   animation-delay: .5s;
 }
+  }
