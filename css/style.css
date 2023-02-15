@@ -6148,6 +6148,8 @@ div#mCSB_1_container{
     margin-top:16px;
   }
 
+
+  /*slider product css extra*/
   #slider {
     height: 50vh;
     min-height: 400px;
@@ -6179,10 +6181,8 @@ div#mCSB_1_container{
 }
 
 
-
 .slide-item {
   height: 100%;
-  margin-right:15%;
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
