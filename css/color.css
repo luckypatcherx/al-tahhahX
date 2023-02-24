@@ -10,11 +10,11 @@
 }
 
 .theme-btn.style-one:before{
-  border-bottom: 60px solid #f5a93f;
+  border-bottom: 60px solid darkgreen;
 }
 
 .theme-btn.style-one:after{
-  border-bottom: 60px solid #f5a93f;
+  border-bottom: 60px solid darkgreen;
 }
 
 .theme-btn.style-two:before{
@@ -35,8 +35,8 @@
 
 .pagination li a:hover,
 .pagination li a.active{
-  border-color: #f5a93f;
-  background: #f5a93f;
+  border-color: darkgreen;
+  background: darkgreen;
 }
 
 .scroll-top{
@@ -109,12 +109,12 @@
 }
 
 .mobile-menu .close-btn:hover{
-	color:#f5a93f;
+	color:darkgreen;
 }
 
 .mobile-menu .navigation li.current > a,
 .mobile-menu .navigation li > a:hover{
-  color:#f5a93f;  
+  color:darkgreen;  
 }
 
 .mobile-menu .navigation li > a:before{
