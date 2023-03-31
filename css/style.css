@@ -83,6 +83,7 @@ body {
   background-repeat:no-repeat;
   background-position:center top;
   -webkit-font-smoothing: antialiased;
+  
 }
 
   @media (min-width:1200px) {
@@ -1389,7 +1390,9 @@ div#mCSB_1_container{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: lightgreen; 
+  /* background-color: lightgreen;  */
+
+  background: linear-gradient(to bottom, #68c3d4, white);
 }
 
 .main-slider .content-box{
@@ -6116,14 +6119,14 @@ div#mCSB_1_container{
 
 .responsive-map{
   overflow: hidden;
-  padding-bottom:56.25%;
+  padding-bottom:35.25%;
   position:relative;
   height:0;
   }
   .responsive-map iframe{
   left:0;
   top:0;
-  height:100%;
+  height:90%;
   width:100%;
   position:absolute;
   }
