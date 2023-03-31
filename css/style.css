@@ -1389,6 +1389,7 @@ div#mCSB_1_container{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  background-color: lightgreen; 
 }
 
 .main-slider .content-box{
@@ -6251,24 +6252,5 @@ div#mCSB_1_container{
 
   /*extra css */
 
-  .image-frame {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .image-frame img {
-    width: calc(50% - 10px);
-    margin: 5px;
-  }
-  
-  @media (max-width: 768px) {
-    .image-frame img {
-      width: calc(100% - 10px);
-    }
-  }
 
-  .image-frame :hover{
-    transform: scale(1.2);
-   }
-   
   /*extra end*/

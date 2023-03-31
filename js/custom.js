@@ -37,15 +37,3 @@ function nextSlide() {
 };
 
 //            Switch to prev slide
-
-function prevSlide() {
-    $('.active-slide').removeClass('active-slide').addClass('oldActive');
-    if ($('.oldActive').is(':first-child')) {
-        $('.slide-item').last().addClass('active-slide');
-    } else {
-        $('.oldActive').prev().addClass('active-slide');
-    }
-    $('.oldActive').removeClass('oldActive');
-    $('.slide-item').fadeOut(speed);
-    $('.active-slide').fadeIn(speed);
-};
