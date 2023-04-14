@@ -6303,3 +6303,27 @@ div#mCSB_1_container{
   }
 
   /* Set the preloader image */
+  .zoom-effect img {
+    animation: zoom 3s infinite; /* Adjust the duration as needed */
+    width:70% ; /* Adjust to your desired size */
+    /* Adjust to your desired size */
+    
+    overflow: hidden;
+  }
+  
+  /* Define the zoom animation */
+  @keyframes zoom {
+    0%, 100% {
+      transform: scale(1); /* Initial size */
+    }
+    50% {
+      transform: scale(1.05); /* Zoom-in size */
+    }
+    
+  }
+  /* Apply the animation only on small devices */
+  @media (max-width: 767px) {
+    .zoom-effect img {
+      animation: zoom 3s infinite; /* Adjust the duration as needed */
+    }
+  }
