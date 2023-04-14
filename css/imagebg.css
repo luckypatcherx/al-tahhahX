@@ -187,14 +187,16 @@
 }
 
 .preloader{
-  position: fixed; 
-  left:0px;
-  top:0px;
-  height:100%;
-  width: 100%;
-  z-index:999999;
-  background-color:#fff;
-  background-position:center center;
-  background-repeat:no-repeat;
-  background-image:url(../images/og/gif2.gif);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999999;
+  background-color: #fff;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url(../images/pre.png);
+  background-size: contain; /* Update this property */
+ 
 }

@@ -1383,8 +1383,8 @@ div#mCSB_1_container{
   -ms-animation-timing-function: linear;
 }
 
-.main-slider .slide{
-  position:relative;
+.main-slider .slide {
+  position: relative;
   width: 100%;
   padding: 175px 0px 100px 0px;
   background-size: cover;
@@ -1392,9 +1392,16 @@ div#mCSB_1_container{
   background-position: center;
   /* background-color: lightgreen;  */
 
-  background: linear-gradient(to bottom, #68c3d4, white);
+  /* Set the background image as the first layer */
+  background-image: url('../images/Background-01.jpg'),
+    /* Set the linear gradient as the second layer */
+    linear-gradient(to bottom, #68c3d4, white);
+  /* You can adjust the position and size of each layer as needed */
+  background-position: center, top;
+  background-size: cover, auto;
+  /* Set the blending mode for the layers */
+  background-blend-mode: multiply, normal;
 }
-
 .main-slider .content-box{
   position: relative;
   display: block;
@@ -6257,3 +6264,42 @@ div#mCSB_1_container{
 
 
   /*extra end*/
+
+  @keyframes fade {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  .preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f8f8;
+    animation: fade 2s infinite; /* Update this property */
+  }
+
+  .preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f8f8;
+  }
+
+  /* Set the preloader image */

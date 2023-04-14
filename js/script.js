@@ -4,10 +4,19 @@
 	
 	//Hide Loading Box (Preloader)
 	function handlePreloader() {
-		if($('.preloader').length){
-			$('.preloader').delay(200).fadeOut(500);
+		if ($('.preloader').length) {
+		  // Hide the preloader initially
+		  $('.preloader').hide();
+	  
+		  // Show the preloader with fade-in effect
+		  $('.preloader').fadeIn(500);
+	  
+		  // Hide the preloader with fade-out effect after a delay
+		  setTimeout(function() {
+			$('.preloader').fadeOut(500);
+		  }, 2000); // Update the delay value (in milliseconds) as needed
 		}
-	}
+	  }
 	
 	//Update Header Style and Scroll to Top
 	function headerStyle() {
