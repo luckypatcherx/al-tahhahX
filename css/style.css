@@ -2950,6 +2950,12 @@ div#mCSB_1_container{
 
 /** header-style-two **/
 
+
+/* Styles for devices with a maximum width of 480 pixels */
+@media screen and (max-width: 480px) {
+  /* Your CSS styles for even smaller devices go here */
+}
+
 .main-header.style-two{
   position: relative;
 }
