@@ -496,3 +496,25 @@
 	
 
 })(window.jQuery);
+
+// get the banner section element
+var banner = document.getElementById('banner');
+
+// add a scroll event listener to the window
+window.addEventListener('scroll', function() {
+  // get the current scroll position
+  var scrollPosition = window.scrollY;
+
+  // check if the scroll position is past the bottom of the banner section
+  if (scrollPosition > banner.offsetTop + banner.offsetHeight) {
+    // add a CSS class to hide the float icon elements
+    document.getElementById('float').classList.add('hidden');
+    document.getElementById('float2').classList.add('hidden');
+    document.getElementById('float3').classList.add('hidden');
+  } else {
+    // remove the CSS class to show the float icon elements
+    document.getElementById('float').classList.remove('hidden');
+    document.getElementById('float2').classList.remove('hidden');
+    document.getElementById('float3').classList.remove('hidden');
+  }
+});

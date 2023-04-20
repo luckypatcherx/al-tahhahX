@@ -6148,15 +6148,15 @@ div#mCSB_1_container{
     position:fixed;
     width:60px;
     height:60px;
-    bottom:100px;
+    bottom:500px;
     right:45px;
-    background-color:#1778bb;
+    background-color:transperent;
     color:#FFF;
     border-radius:50px;
     text-align:center;
     font-size:30px;
     z-index:100;
-    border:1px solid black;
+    /* border:1px solid black; */
 
   
   }
@@ -6165,6 +6165,13 @@ div#mCSB_1_container{
     margin-top:16px;
   }
 
+  .my-float2{
+    margin-top:86px;
+  }
+  .my-float3{
+    margin-top:160px;
+
+  }
 
   /*slider product css extra*/
   @media screen and (max-width: 768px){
