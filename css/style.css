@@ -6380,3 +6380,8 @@ div#mCSB_1_container{
       animation: zoom 3s infinite; /* Adjust the duration as needed */
     }
   }
+
+
+  .boxed_wrapperx{
+    display: none;
+  }

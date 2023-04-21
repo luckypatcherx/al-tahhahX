@@ -4,24 +4,31 @@
 	
 	//Hide Loading Box (Preloader)
 	var preloaderDisplayed = false;
+	var preloaderDisplayed = false;
 
-function handlePreloader() {
-    if ($('.preloader').length && !preloaderDisplayed) {
-        // Set the flag variable to true to indicate that the preloader has been displayed
-        preloaderDisplayed = true;
-
-        // Hide the preloader initially
-        $('.preloader').hide();
-
-        // Show the preloader without any effect
-        $('.preloader').show();
-
-        // Hide the preloader without any effect after a delay
-        setTimeout(function() {
-            $('.preloader').hide();
-        }, 2000); // Update the delay value (in milliseconds) as needed
-    }
-}
+	function handlePreloader() {
+		if ($('.preloader').length && !preloaderDisplayed) {
+			// Set the flag variable to true to indicate that the preloader has been displayed
+			preloaderDisplayed = true;
+	
+			// Hide all other content initially
+			$('.boxed_wrapperx').hide();
+	
+			// Hide the preloader initially
+			$('.preloader').hide();
+	
+			// Show the preloader without any effect
+			$('.preloader').show();
+	
+			// Hide the preloader and show the content after a delay
+			setTimeout(function() {
+				$('.preloader').fadeOut(500, function() {
+					// Show all other content after the preloader has been hidden
+					$('.boxed_wrapperx').show();
+				});
+			}, 2000); // Update the delay value (in milliseconds) as needed
+		}
+	}
 	
 	//Update Header Style and Scroll to Top
 	function headerStyle() {
