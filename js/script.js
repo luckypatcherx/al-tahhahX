@@ -5,19 +5,31 @@
 	//Hide Loading Box (Preloader)
 	function handlePreloader() {
 		if ($('.preloader').length) {
-		  // Hide the preloader initially
-		  $('.preloader').hide();
-	  
 		  // Show the preloader with fade-in effect
 		  $('.preloader').fadeIn(500);
+		}
 	  
-		  // Hide the preloader with fade-out effect after a delay
+		// Hide the preloader with fade-out effect after the page has finished loading
+		$(window).on('load', function() {
 		  setTimeout(function() {
 			$('.preloader').fadeOut(500);
+			// Show the page content with fade-in effect after the preloader has finished loading
+			$('.page-container').fadeIn(500);
 		  }, 2000); // Update the delay value (in milliseconds) as needed
-		}
+		});
 	  }
-	
+	  
+	  // Call handlePreloader function on document ready
+	  $(document).ready(function() {
+		handlePreloader();
+	  });
+	  
+	  
+	  
+	  
+	  
+	  
+	  
 	//Update Header Style and Scroll to Top
 	function headerStyle() {
 		if($('.main-header').length){

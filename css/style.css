@@ -6143,35 +6143,73 @@ div#mCSB_1_container{
   width:100%;
   position:absolute;
   }
-
-  .float{
-    position:fixed;
-    width:60px;
-    height:60px;
-    bottom:500px;
-    right:45px;
-    background-color:transperent;
-    color:#FFF;
-    border-radius:50px;
-    text-align:center;
-    font-size:30px;
-    z-index:100;
-    /* border:1px solid black; */
-
-  
+  .main-slider {
+    position: relative;
+    height: 100%; /* Set the height of the main-slider to 100% */
   }
   
-  .my-float{
-    margin-top:16px;
+  .main-slider {
+    position: relative;
+    height: 100%;
+  }
+  
+  .float {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    z-index: 100;
+  }
+  
+  .my-float {
+    margin-top: 16px;
+  }
+  
+  .my-float2 {
+    margin-top: 86px;
+  }
+  
+  .my-float3 {
+    margin-top: 160px;
+  }
+  
+  .float.float1 {
+    bottom: 500px;
+    right: 45px;
+  }
+  
+  .float.float2 {
+    bottom: 420px;
+    right: 45px;
+  }
+  
+  .float.float3 {
+    bottom: 340px;
+    right: 45px;
+  }
+  
+  /* Add this code to position the float icons on the right side */
+  .float {
+    right: 20px; /* Adjust this value to position the float icons */
+    left: auto;
+    top: 150px;
   }
 
-  .my-float2{
-    margin-top:86px;
-  }
-  .my-float3{
-    margin-top:160px;
 
+/* Add media query for small devices */
+@media (max-width: 767px) {
+  .float {
+  
+    top: 271px;
+   
   }
+}
+
+
 
   /*slider product css extra*/
   @media screen and (max-width: 768px){
@@ -6323,6 +6361,8 @@ div#mCSB_1_container{
     
     overflow: hidden;
   }
+  
+  
   
   /* Define the zoom animation */
   @keyframes zoom {
