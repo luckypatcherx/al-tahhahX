@@ -459,8 +459,15 @@ img {
   left: 0px;
   top: 0px;
   width: 100%;
-  background: transparent;
+ 
+  background: white;
   padding: 0px 70px;
+}
+@media screen and (min-width: 768px) {
+  .main-header .outer-container {
+  top: -15px !important;;
+    height: 135px !important;;
+  }
 }
 
 .main-header .outer-container .header-upper .upper-left .logo-box{
@@ -1393,9 +1400,8 @@ div#mCSB_1_container{
   /* background-color: lightgreen;  */
 
   /* Set the background image as the first layer */
-  background-image: url('../images/Background-01.jpg'),
+  background-image: url('../images/Background-01.jpg');
     /* Set the linear gradient as the second layer */
-    linear-gradient(to bottom, #68c3d4, white);
   /* You can adjust the position and size of each layer as needed */
   background-position: center, top;
   background-size: cover, auto;
@@ -6196,7 +6202,7 @@ div#mCSB_1_container{
   .float {
     right: 20px; /* Adjust this value to position the float icons */
     left: auto;
-    top: 150px;
+    top: 300px;
   }
 
 
