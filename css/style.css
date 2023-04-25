@@ -3575,6 +3575,21 @@ div#mCSB_1_container{
   padding: 220px 0px;
 }
 
+@media screen and (max-width:725px){
+  .video-style-two #video_block_one .video-inner{
+    display: none;
+  }
+}
+
+
+
+@media screen and (min-width:725px) and (max-width: 1920px) {
+  .video-style-two #video_block_one .video-inner .video-box{
+    padding: 250px 0px;
+  }
+  
+}
+
 #content_block_four .content-box{
   position: relative;
   max-width: 500px;

@@ -2,7 +2,7 @@
 .main-slider .top-text:before{
   position: absolute;
   content: '';
-  background: url(../images/icons/wave-icon-1.png);
+  /* background: url(../images/icons/wave-icon-1.png); */
   width: 33px;
   height: 8px;
   left: 0px;
@@ -12,8 +12,8 @@
 
 .sec-title h1:before{
   position: absolute;
-  content: '';
-  background: url(../images/icons/wave-icon-2.png);
+  /* content: ; */
+  /* background: url(../images/icons/wave-icon-2.png); */
   width: 33px;
   height: 8px;
   right: 0px;
@@ -24,7 +24,7 @@
 .feature-section .feature-block:before{
   position: absolute;
   content: '';
-  background: url(../images/icons/wave-icon-3.png);
+  /* background: url(../images/icons/wave-icon-3.png); */
   width: 11px;
   height: 50px;
   top: 50%;
@@ -46,7 +46,7 @@
 .composition-section .lower-content .single-item:before {
   position: absolute;
   content: '';
-  background: url(../images/icons/wave-icon-3.png);
+  /* background: url(../images/icons/wave-icon-3.png); */
   width: 11px;
   height: 50px;
   top: 50%;
@@ -93,7 +93,7 @@
 .fact-counter .counter-block:before {
   position: absolute;
   content: '';
-  background: url(../images/icons/wave-icon-3.png);
+  /* background: url(../images/icons/wave-icon-3.png); */
   width: 11px;
   height: 50px;
   top: 50%;
@@ -105,7 +105,7 @@
 .filtration-process .single-item h3:before {
   position: absolute;
   content: '';
-  background: url(../images/icons/wave-icon-2.png);
+  /* background: url(../images/icons/wave-icon-2.png); */
   width: 33px;
   height: 8px;
   left: 50%;
@@ -128,7 +128,7 @@
 .faq-section .faq-title:before {
   position: absolute;
   content: '';
-  background: url(../images/icons/wave-icon-2.png);
+  /* background: url(../images/icons/wave-icon-2.png); */
   width: 33px;
   height: 8px;
   left: 50%;
@@ -140,7 +140,7 @@
 .default-sidebar .widget-title:before {
   position: absolute;
   content: '';
-  background: url(../images/icons/wave-icon-2.png);
+  /* background: url(../images/icons/wave-icon-2.png); */
   width: 33px;
   height: 8px;
   left: 0px;
@@ -151,7 +151,7 @@
 .shop-details .product-info-tabs .tab-btns li:before{
   position: absolute;
   content: '';
-  background: url(../images/icons/wave-icon-2.png);
+  /* background: url(../images/icons/wave-icon-2.png); */
   width: 0px;
   height: 8px;
   left: 50%;
@@ -164,7 +164,7 @@
 .blog-details-content .group-title:before {
   position: absolute;
   content: '';
-  background: url(../images/icons/wave-icon-2.png);
+  /* background: url(../images/icons/wave-icon-2.png); */
   width: 33px;
   height: 8px;
   left: 0px;
@@ -175,7 +175,7 @@
 .contact-section .title-text:before {
   position: absolute;
   content: '';
-  background: url(../images/icons/wave-icon-2.png);
+  /* background: url(../images/icons/wave-icon-2.png); */
   width: 33px;
   height: 8px;
   left: 0px;
