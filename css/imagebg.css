@@ -193,7 +193,7 @@
   background-color: #fff;
   background-position: center center;
   background-repeat: no-repeat;
-  background-image: url(../images/pre.png);
-  background-size: contain; /* Update this property */
+  background-image: url(../images/logo.png);
+  background-size: 20%; /* Update this property */
  
 }
