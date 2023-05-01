@@ -51,6 +51,20 @@
 ====================================================================
 
  ***/
+
+
+ @font-face {
+  font-family: 'Corbert Regular';
+  src:  url("../fonts/Corbert-Regular.ttf") format("truetype");
+   font-weight: normal;
+  font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+
+
  html{
 
 scroll-behavior: smooth;
