@@ -6420,3 +6420,7 @@ div#mCSB_1_container{
   .boxed_wrapperx{
     display: none;
   }
+
+  .alileft{
+    text-align: left!important;
+  }
