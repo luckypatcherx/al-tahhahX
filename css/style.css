@@ -6424,3 +6424,20 @@ div#mCSB_1_container{
   .alileft{
     text-align: left!important;
   }
+
+  
+/*custom media margin large */
+@media only screen and (min-width: 1200px) {
+  .mar_ovveride_top{
+    margin-top:-10%
+  }
+  .mar_ovveride_left  {
+    margin-left: 35%;
+  }
+}
+  /* Apply the animation only on small devices */
+  @media (max-width: 767px) {
+    .smhide {
+      display:none /* Adjust the duration as needed */
+    }
+  }
