@@ -6429,7 +6429,7 @@ div#mCSB_1_container{
 /*custom media margin large */
 @media only screen and (min-width: 1200px) {
   .mar_ovveride_top{
-    margin-top:-10%
+    margin-top:-2%
   }
   .mar_ovveride_left  {
     margin-left: 35%;
