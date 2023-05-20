@@ -61,7 +61,10 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-
+@font-face {
+  font-family: "Brush Script Std Medium";
+  src: url(../fonts/Brush\ Script\ Std\ Medium.ttf);
+}
 
 
 
