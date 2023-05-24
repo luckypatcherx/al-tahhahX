@@ -6443,4 +6443,15 @@ div#mCSB_1_container{
     .smhide {
       display:none /* Adjust the duration as needed */
     }
+  } 
+
+  /*override list */
+@media (min-width: 900px) {
+  .li_ovverid li {
+    line-height: 20px;
+    font-size: 0.95em;
+   
   }
+  
+}
+ 
